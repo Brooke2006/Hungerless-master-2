@@ -198,8 +198,82 @@ class Location3ViewController: UIViewController {
         marker42.title = "Greene Area Food Pantry"
         marker42.snippet = "109 County Rd 2, Greene, NY 13778"
         marker42.map = mapView
+     
+        let marker43 = GMSMarker()
+        marker43.position = CLLocationCoordinate2D(latitude: 33.52915, longitude: -81.6912 )
+        marker43.title = "Golden Harvest Food Bank"
+        marker43.snippet = "81 Capital Dr, Aiken, SC 29803"
+        marker43.map = mapView
         
         
+        let marker44 = GMSMarker()
+        marker44.position = CLLocationCoordinate2D(latitude:33.4686, longitude: -81.96709 )
+        marker44.title = "Golden Harvest Food Bank"
+        marker44.snippet = "702 Fenwick St, Augusta, GA 30901"
+        marker44.map = mapView
+        
+        let marker45 = GMSMarker()
+        marker45.position = CLLocationCoordinate2D(latitude:33.44987, longitude: -82.06007 )
+        marker45.title = "Golden Harvest Food Bank"
+        marker45.snippet = "3310 Commerce Dr, Augusta, GA 30909"
+        marker45.map = mapView
+        
+        let marker46 = GMSMarker()
+        marker46.position = CLLocationCoordinate2D(latitude:41.77327, longitude: -76.40179 )
+        marker46.title = "Towanda Area Christian Pantry"
+        marker46.snippet = "1876 Golden Mile Rd, P O Box 463, Wysox, PA 1885"
+        marker46.map = mapView
+        
+        let marker47 = GMSMarker()
+        marker47.position = CLLocationCoordinate2D(latitude:30.35108, longitude: -81.67926 )
+        marker47.title = "Catholic Charities Food Pantry"
+        marker47.snippet = "1470 W 13th St, Jacksonville, FL 32209"
+        marker47.map = mapView
+        
+        let marker48 = GMSMarker()
+        marker48.position = CLLocationCoordinate2D(latitude:42.10085, longitude: -75.92562 )
+        marker48.title = "Catholic Charities Food Pantry"
+        marker48.snippet = "100 Main St, Binghamton, NY 13905"
+        marker48.map = mapView
+        
+        let marker49 = GMSMarker()
+        marker49.position = CLLocationCoordinate2D(latitude:41.57577, longitude: -75.25375)
+        marker49.title = "Wayne County Food Pantry"
+        marker49.snippet = "323 10th St, Honesdale, PA 18431"
+        marker49.map = mapView
+        
+        
+        let marker50 = GMSMarker()
+        marker50.position = CLLocationCoordinate2D(latitude:42.06172, longitude: -75.42667)
+        marker50.title = "Deposit Food Pantry"
+        marker50.snippet = "91 2nd St, Deposit, NY 13754"
+        marker50.map = mapView
+        
+        let marker51 = GMSMarker()
+        marker51.position = CLLocationCoordinate2D(latitude:41.83396, longitude: -75.87713)
+        marker51.title = "Montrose Emergency Food Bank"
+        marker51.snippet = "RR 706, Montrose, PA 18801"
+        marker51.map = mapView
+
+        let marker52 = GMSMarker()
+        marker52.position = CLLocationCoordinate2D(latitude:41.23837, longitude:  -75.8656)
+        marker52.title = "Keystone Mission"
+        marker52.snippet = "290 Parkview Cir, Wilkes-Barre, PA 18702"
+        marker52.map = mapView
+        
+        let marker53 = GMSMarker()
+        marker53.position = CLLocationCoordinate2D(latitude:41.29001, longitude: -75.74565)
+        marker53.title = "Harry & Jeanette Weinberg Northeast Regional Food Bank"
+        marker53.snippet = "185 Research Drive, Pittston, PA 18640"
+        marker53.map = mapView
+        
+        let marker54 = GMSMarker()
+        marker54.position = CLLocationCoordinate2D(latitude:42.08371, longitude: -75.89648)
+        marker54.title = "Loaves and Fish Pantry"
+        marker54.snippet = "1262 Mill St, Binghamton, NY 13903"
+        marker54.map = mapView
+
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
